@@ -12,4 +12,10 @@ looks through the inspected output of the container.  Locates the "Links" config
 ###Option 2
     docker inspect -f "{{ .HostConfig.Links }}" elk_kibana4
 
-the -f flag means to format out the output. 
+the -f flag means to format out the output.
+
+##How to quit out of a container without shutting it down 
+
+    Press the key combo ctrl + p + q
+
+
